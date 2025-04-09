@@ -1,0 +1,22 @@
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 30%;
+  border: rgb(158, 158, 159) solid 1px;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.container h2{
+   width: 300px;
+   padding: 10px;
+}
+
+.container p {
+    width: 300px;
+    padding: 10px;
+}
