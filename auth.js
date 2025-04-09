@@ -28,7 +28,7 @@ function register() {
     users.push({ email, password });
     saveUsers(users);
     alert('Registration successful! Please log in.');
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 }
 
 function login() {
@@ -39,7 +39,7 @@ function login() {
     const user = users.find(user => user.email === email && user.password === password);
     if (user) {
         alert('Login successful!');
-        window.location.href = 'index.html'; 
+        window.location.href = 'home.html'; 
     } else {
         alert('Invalid email or password. Please try again.');
     }

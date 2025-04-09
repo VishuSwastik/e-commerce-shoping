@@ -99,7 +99,7 @@ checkboxes.forEach(cb => cb.addEventListener("change", filterProducts));
 
   logoutBtn.addEventListener("click", () => {
     alert("You have been logged out.");
-    window.location.href = "login.html"; 
+    window.location.href = "index.html"; 
   });
 
 
